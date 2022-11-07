@@ -2,6 +2,7 @@
 
 
 from openshift.dynamic.exceptions import ResourceNotFoundError
+
 from ocp_resources.constants import PROTOCOL_ERROR_EXCEPTION_DICT, TIMEOUT_4MINUTES
 from ocp_resources.resource import TIMEOUT, NamespacedResource
 from ocp_resources.utils import TimeoutSampler
